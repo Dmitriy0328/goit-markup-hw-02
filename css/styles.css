@@ -1,0 +1,120 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --studio-header-color: #000000;
+    --header-background-color: #FFFFFF;
+    --hero-background-color: #2F303A;
+    --hero-title-color: #FFFFFF;
+    --peculiarity-background-color: #F5F5F5;
+    --team-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --studio--footer-color: #FFFFFF;
+    --footer-address-color: #FFFFFF;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* Шапка сторінки*/
+.header {
+    background-color: var(--header-background-color);
+}
+
+.web-logo {
+    color: var(--accent-color);
+    font-family: 'Raleway';
+}
+
+.studio-header {
+    color: var(--studio-header-color);
+}
+
+/* Зброс крапок списків*/
+.list {
+    list-style: none;
+}
+
+/* Зброс підкреслювання посилань*/
+.link {
+    text-decoration: none;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contacns-header .link {
+    color: var(--primary-text-color);
+}
+
+.contacns-header .link:hover,
+.contacns-header .link:focus {
+    color: var(--accent-color);
+}
+
+/* Унікальний контент сторінки*/
+/* Секція герой*/
+.hero {
+    background: var(--hero-background-color);
+}
+
+.hero-title {
+    color: var(--hero-title-color);
+}
+
+/* Секція Особливості*/
+.peculiarity {
+    background-color: var(--peculiarity-background-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.section-text {
+    color: var(--primary-text-color);
+}
+
+/* Секція Робота*/
+.work {
+    background: var(--peculiarity-background-color);
+}
+
+/* Секція Команда*/
+.team {
+    background: var(--team-background-color);
+}
+
+/* Підвал сторінки*/
+.footer {
+    background: var(--footer-background-color);
+}
+
+.studio-footer {
+    color: var(--studio--footer-color);
+}
+
+.footer-address {
+    color: var(--footer-address-color);
+    font-style: normal;
+}
+
+.footer-contact {
+    color: var(--footer-contact-color);
+    font-style: normal;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
+}
