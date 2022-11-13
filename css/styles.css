@@ -9,6 +9,7 @@
     --team-background-color: #F5F4FA;
     --footer-background-color: #2F303A;
     --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --button-hover-color: #188ce8;
 }
 
 /* СТУДІЯ */
@@ -98,11 +99,12 @@ body {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button {
-    background-color: var(--team-background-color);
-    color: var(--title-text-color);
+    background-color: var(--accent-color);
+    color: var(--text-background-color);
     cursor: pointer;
     font-family: inherit;
     font-weight: 700;
@@ -113,14 +115,14 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--accent-color);
+    background-color: var(--button-hover-color);
     color: var(--text-background-color)
 }
 
 
 /* Секція Особливості*/
 .peculiarity {
-    background-color: var(--peculiarity-background-color);
+    background-color: var(--text-background-color);
 }
 
 .peculiarity-title {
@@ -139,7 +141,7 @@ body {
 
 /* Секція Робота*/
 .work {
-    background: var(--peculiarity-background-color);
+    background: var(--text-background-color);
 }
 
 .section-title {
@@ -272,7 +274,7 @@ body {
 /* Унікальний контент сторінки*/
 /* Секція */
 .section {
-    background: var(--peculiarity-background-color);
+    background: var(--text-background-color);
 }
 
 .card {
@@ -322,12 +324,12 @@ body {
 }
 
 .footer-address {
-    color: var(--footer-address-color);
+    color: var(--text-background-color);
     font-style: normal;
 }
 
 .footer-contact {
-    color: var(--text-background-color);
+    color: var(--footer-contact-color);
     font-style: normal;
 }
 
